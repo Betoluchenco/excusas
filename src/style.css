@@ -1,5 +1,18 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
-}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100%;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: black;
+  }
